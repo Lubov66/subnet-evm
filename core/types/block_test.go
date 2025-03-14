@@ -40,6 +40,11 @@ import (
 	"github.com/ava-labs/subnet-evm/params"
 
 	. "github.com/ava-labs/subnet-evm/core/types"
+
+	// TODO(arr4n) These tests were originally part of the `subnet-evm/core/types`
+	// package so assume the presence of identifiers. A dot-import reduces PR
+	// noise during the refactoring.
+	. "github.com/ava-labs/libevm/core/types"
 )
 
 func TestBlockEncoding(t *testing.T) {
