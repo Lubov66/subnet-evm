@@ -39,7 +39,7 @@ import (
 	"github.com/ava-labs/subnet-evm/internal/blocktest"
 	"github.com/ava-labs/subnet-evm/params"
 
-	. "github.com/ava-labs/subnet-evm/core/types"
+	. "github.com/ava-labs/subnet-evm/plugin/evm/types"
 
 	// TODO(arr4n) These tests were originally part of the `subnet-evm/core/types`
 	// package so assume the presence of identifiers. A dot-import reduces PR
